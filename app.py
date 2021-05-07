@@ -9,8 +9,7 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-# toTweet = VaccinesBar()
-# if toTweet != "Same Data":
-#     api.update_status(toTweet)
+toTweet = VaccinesBar()
+if toTweet != "Same Data":
+    api.update_status(toTweet)
 
-api.update_status("test")
